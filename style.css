@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    text-decoration;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: yellow;
+}
+
+.containerkiri {
+    background-color: blue;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.containerkanan {
+    background-color: red;
+    height: 100px;
+}

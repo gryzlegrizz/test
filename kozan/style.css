@@ -1,0 +1,71 @@
+/* Reset CSS default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style header */
+header {
+    background-color: #3e2723;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style navbar */
+.navbar {
+    background-color: #3e2723;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Style menu section */
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu h2 {
+    margin-bottom: 20px; /* Agar ada jarak antara judul dan item */
+}
+
+.item {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+}
+
+button {
+    background-color: #3e2723;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style footer */
+footer {
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
